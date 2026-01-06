@@ -1,0 +1,5 @@
+Here's a summary of the document in 3 bullet points:
+
+*   The EU AI Act Compliance Auditor is an automated platform for evaluating GPT models against EU AI Act requirements, focusing on bias, transparency, consistency, hallucination, and robustness.
+*   It implements a structured testing methodology, including prompt-based evaluations (leveraging the OpenAI API), Jaccard similarity for consistency, and a risk classification system based on EU AI Act Annex III and prohibited practices.
+*   The system features a Streamlit-based web interface for user interaction and generates professional, multi-page PDF compliance reports summarizing evaluation results, compliance status, and recommendations.

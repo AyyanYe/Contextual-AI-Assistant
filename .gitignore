@@ -1,21 +1,22 @@
-# the composer package lock file and install directory
-# Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
-# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
-# /composer.lock
-/fuel/vendor
+# --- 1. SECURITY (Crucial) ---
+# Ignore the file with your API Key
+nextcloud/apps/contextai/lib/config.private.php
 
-# the fuelphp document
-/docs/
+# --- 2. Heavy Dependencies (Can be re-installed) ---
+# Ignore PHP vendor folders anywhere in the project
+vendor/
+*/vendor/
+nextcloud/3rdparty/
 
-# you may install these packages with `oil package`.
-# http://fuelphp.com/docs/packages/oil/package.html
-# /fuel/packages/auth/
-# /fuel/packages/email/
-# /fuel/packages/oil/
-# /fuel/packages/orm/
-# /fuel/packages/parser/
+# Ignore Node.js modules anywhere
+node_modules/
+*/node_modules/
 
-# dynamically generated files
-/fuel/app/logs/*/*/*
-/fuel/app/cache/*/*
-/fuel/app/config/crypt.php
+# --- 3. System & IDE Junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
+*.swp
+*.zip
+*.tar.gz

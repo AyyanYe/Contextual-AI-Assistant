@@ -1,0 +1,6 @@
+Connection Error: Client error: `POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyBc7Hbtk9QwFpKA7BulZB9JmfRSM2XYR8o` resulted in a `400 Bad Request` response:
+{
+  "error": {
+    "code": 400,
+    "message": "* GenerateContentRequest.contents: contents is not specified\n",
+    "st (truncated...)

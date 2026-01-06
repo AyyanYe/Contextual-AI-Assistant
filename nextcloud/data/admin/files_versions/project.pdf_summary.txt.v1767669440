@@ -1,0 +1,7 @@
+This document details the **EU AI Act Compliance Auditor**, an automated platform for evaluating GPT models.
+
+Here's a summary in 3 bullet points:
+
+*   It's an **automated platform** designed to test and audit GPT models for compliance with EU AI Act (Regulation 2024/1689) requirements.
+*   The system conducts **evaluations across key dimensions**, including bias and fairness, transparency, response consistency, hallucination, and robustness, also classifying the AI system's risk level.
+*   It generates **professional, multi-page PDF compliance reports** that summarize findings, provide overall scores, detailed test results, and actionable recommendations.
